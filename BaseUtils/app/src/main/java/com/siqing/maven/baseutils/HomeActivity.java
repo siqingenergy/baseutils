@@ -7,9 +7,15 @@ import android.os.PersistableBundle;
 /**
  * Created by siqing on 16/1/9.
  */
-public class HomeActivity extends Activity{
+public class HomeActivity extends BaseActivity {
+
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    protected void initViews() {
+
+    }
+
+    @Override
+    protected void initActions() {
+
     }
 }
